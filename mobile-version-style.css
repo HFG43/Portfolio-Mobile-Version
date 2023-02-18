@@ -109,9 +109,11 @@ header {
   justify-content: stretch;
 }
 
-.snapshot-portfolio {
+.snapshot-portfolio-tonic {
   background-image: url(/Images/Snapshoot\ Portfolio.png);
-  grid-column: 1 / span 6;
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-column: 1;
   margin-top: 16px;
   margin-left: 16px;
   height: 220px ;
@@ -140,4 +142,25 @@ header {
 grid-column: 1 / span 6;
 justify-items: start;
 background-image: url(Images/Frame\ 2.png);
+}
+
+.snapshot-portfolio-multi {
+    background-image: url(Images/Snapshoot\ Portfolio\ Multi.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: 1;
+    margin-top: 16px;
+    margin-left: 16px;
+    height: 220px ;
+    max-height: 100%;
+}
+
+.contactme-form {
+  background-image: url(Images/header-shapes\ mobile.png);
+  position: relative;
+  justify-content: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 90vh;
+  margin-top: 0;
 }
