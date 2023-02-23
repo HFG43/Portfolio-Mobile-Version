@@ -5,13 +5,16 @@
 }
 
 #card-container {
+  background-color: #dfe1e6;
   display: grid;
   grid-template-columns: auto;
   justify-content: center;
 }
 
 .card-works {
-  border: blue 2px solid;
+  border: 0.0625rem solid #e5e5e5;
+  border-radius: #e5e5e5 1rem;
+  background-color: #ffffff;
   justify-self: center;
   display: grid;
   grid-template-columns: auto;
@@ -21,6 +24,7 @@
 }
 
 .card-work-insider {
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
 }
@@ -71,6 +75,7 @@
 .tags-container{
   display: flex;
   margin-left: 1rem;
+  list-style-type: none;
 }
 
 .tags {
@@ -104,4 +109,48 @@
   font-weight: 500;
   font-size: 1.0625rem;
   background-color: #ffffff;
+}
+
+#about-myself {
+  display: flex;
+  background-color: #ffffff;
+  border-top-right-radius: 3.125rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.header2 {
+  font-family: 'Poppins'sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: left;
+  color: #172b4d;
+  margin-top: 7.125rem;
+}
+
+#primary-info-paragraph{
+  font-family: 'Poppins'sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: left;
+  color: #344563;
+  margin-top: 1.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.lets-connect{
+  font-family: 'Poppins'sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #7f8cff;
+  margin-bottom: 26px;
+}
+
+.media-links {
+  display: flex;
+  list-style-type: none;
+  margin-left: 1.5rem;
 }
