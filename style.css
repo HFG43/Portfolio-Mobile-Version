@@ -14,7 +14,7 @@
 .card-works {
   border: 0.0625rem solid #e5e5e5;
   border-radius: #e5e5e5 1rem;
-  background-color: #ffffff;
+  background-color: #fff;
   justify-self: center;
   display: grid;
   grid-template-columns: auto;
@@ -47,7 +47,7 @@
   margin-top: 1.25rem;
   display: flex;
   margin-left: 1rem;
-  justify-content:flex-start;
+  justify-content: flex-start;
   list-style-type: none;
   font-family: 'Poppins', sans-serif;
   font-size: 0.8125rem;
@@ -57,11 +57,11 @@
   color: #344563;
 }
 
-.frame-2 li{
+.frame-2 li {
   margin-right: 0.75rem;
 }
 
-.primary-project-text{
+.primary-project-text {
   margin-top: 1.25rem;
   margin-left: 1rem;
   margin-right: 1rem;
@@ -72,7 +72,7 @@
   color: #344563;
 }
 
-.tags-container{
+.tags-container {
   display: flex;
   margin-left: 1rem;
   list-style-type: none;
@@ -93,7 +93,7 @@
 
 .action-button {
   display: flex;
-  justify-content: flex-start; 
+  justify-content: flex-start;
 }
 
 .see-project-button {
@@ -144,7 +144,7 @@
   margin-right: 1.5rem;
 }
 
-#primary-info-paragraph{
+#primary-info-paragraph {
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
   font-weight: 400;
@@ -157,7 +157,7 @@
   margin-left: 1.5rem;
  }
 
-.lets-connect{
+.lets-connect {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -176,7 +176,7 @@
   margin-right: 1.5rem;
 }
 
-.media-links li{
+.media-links li {
   margin-right: 1.5rem;
 }
 
@@ -201,7 +201,7 @@
 }
 
 .languages-list {
-  display:flex;
+  display: flex;
   flex-direction: column;
   margin-top: 2.25rem;
 }
