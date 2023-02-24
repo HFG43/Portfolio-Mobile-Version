@@ -231,6 +231,6 @@
 }
 
 .horizontal-line {
-  height: 1px;
+  height: 0.0625rem;
   color: #dfe1e6;
 }
