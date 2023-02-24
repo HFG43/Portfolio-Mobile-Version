@@ -4,29 +4,66 @@
   padding: 0;
 }
 
+body {
+  background-color: #e5e5e5;
+  width: 375px;
+  height: 718px;
+}
+
+.presentation {
+  background-color: #fff;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.my-logo {
+  height: 2.8125rem;
+  width: 2.8125rem;
+  margin-top: 3.625rem;
+  margin-left: 1.5rem;
+}
+
+.primary-info {
+  background-image: url(Images/header-shapes\ mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.media-links {
+  display: flex;
+  list-style-type: none;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  padding-bottom: 8.625rem;
+}
+
 #card-container {
-  background-color: #dfe1e6;
+  background-color: #e5e5e5;
   display: grid;
   grid-template-columns: auto;
   justify-content: center;
 }
 
 .card-works {
-  border: 0.0625rem solid #e5e5e5;
-  border-radius: #e5e5e5 1rem;
-  background-color: #fff;
+  border-radius: 1rem;
   justify-self: center;
   display: grid;
   grid-template-columns: auto;
   row-gap: 7.125rem;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  margin-top: 114px;
+  margin-left: 24px;
+  margin-right: 48px;
 }
 
 .card-work-insider {
   background-color: #fff;
   display: flex;
   flex-direction: column;
+  border-radius: 1rem;
 }
 
 .image-snapshot {
@@ -97,7 +134,7 @@
 }
 
 .see-project-button {
-  margin-top: 0.75rem;
+  margin-top: 1.75rem;
   margin-left: 1rem;
   margin-bottom: 1.75rem;
   border-radius: 1rem;
@@ -126,11 +163,14 @@
   background-color: #2230d2;
 }
 
+#last-card {
+  margin-bottom: 7.75rem;
+}
 #about-myself {
   display: flex;
   flex-direction: column;
   background-color: #fff;
-  border-top-right-radius: 3.125rem;
+  border-top-right-radius: 6.25rem;
 }
 
 .header2 {
@@ -142,9 +182,10 @@
   margin-top: 7.125rem;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
+  
 }
 
-#primary-info-paragraph {
+.primary-info-paragraph {
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
   font-weight: 400;
@@ -169,17 +210,21 @@
   margin-right: 1.5rem;
 }
 
-.media-links {
+.media-links-aboutmyself {
   display: flex;
   list-style-type: none;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
+ 
 }
 
 .media-links li {
   margin-right: 1.5rem;
 }
 
+.media-links-aboutmyself li {
+  margin-right: 1.5rem;
+}
 .tech-info {
   list-style: none;
   margin-left: 1.5rem;
@@ -189,6 +234,7 @@
 .tech-info-font {
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
   list-style-type: none;
   font-family: 'Poppins', sans-serif;
@@ -198,6 +244,8 @@
   color: #000;
   margin-right: 4rem;
   margin-top: 1.5rem;
+  padding: 0.5rem;
+  margin-bottom: 1.4375rem;
 }
 
 .languages-list {
@@ -232,5 +280,5 @@
 
 .horizontal-line {
   height: 0.0625rem;
-  color: #dfe1e6;
+  color: #dfe1e6; 
 }
