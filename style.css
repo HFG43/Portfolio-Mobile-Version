@@ -34,7 +34,7 @@ body {
   background-image: url(Images/header-shapes\ mobile.png);
   background-repeat: no-repeat;
   background-size: contain;
-  display: inline-block
+  display: inline-block;
 }
 
 .header1 {
