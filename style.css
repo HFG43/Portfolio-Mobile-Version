@@ -1,0 +1,313 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e5e5e5;
+  width: 375px;
+  height: 718px;
+}
+
+.presentation {
+  background-color: #fff;
+  border-bottom-left-radius: 50px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-direction: row;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.my-logo {
+  height: 1.875rem;
+  width: 1.875rem;
+  margin-top: 3.625rem;
+}
+
+.primary-info {
+  background-image: url(Images/header-shapes\ mobile.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+}
+
+.header1 {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: left;
+  color: #172b4d;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: 110px;
+}
+
+.media-links {
+  display: flex;
+  list-style-type: none;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  padding-bottom: 8.625rem;
+}
+
+#card-container {
+  background-color: #e5e5e5;
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+}
+
+.card-works {
+  border-radius: 1rem;
+  justify-self: center;
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 7.125rem;
+  margin-top: 7.125rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.card-work-insider {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+}
+
+.image-snapshot {
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+.project-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #172b4d;
+  margin-top: 0.75rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.frame-2 {
+  margin-top: 1.25rem;
+  display: flex;
+  margin-left: 1rem;
+  justify-content: flex-start;
+  list-style-type: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  line-height: 1rem;
+  text-align: left;
+  color: #344563;
+}
+
+.frame-2 li {
+  margin-right: 0.75rem;
+}
+
+.primary-project-text {
+  margin-top: 1.25rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #344563;
+}
+
+.tags-container {
+  display: flex;
+  margin-left: 1rem;
+  list-style-type: none;
+}
+
+.tags {
+  margin-top: 0.75rem;
+  padding: 0.25rem 0.75rem;
+  margin-right: 0.5rem;
+  background-color: #ebebff;
+  border-radius: 0.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.75rem;
+  color: #6070ff;
+}
+
+.action-button {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.see-project-button {
+  margin-top: 1.75rem;
+  margin-left: 1rem;
+  margin-bottom: 1.75rem;
+  border-radius: 1rem;
+  padding: 0.75rem;
+  border: 0.0625rem solid #396df2;
+  color: #396df2;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.0625rem;
+  background-color: #fff;
+}
+
+.see-project-button:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.see-project-button:disabled {
+  border: 1px solid #5e6c84;
+  color: #5e6c84;
+}
+
+.see-project-button:active {
+  color: #fff;
+  background-color: #2230d2;
+}
+
+#last-card {
+  margin-bottom: 7.75rem;
+}
+
+#about-myself {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-top-right-radius: 6.25rem;
+}
+
+.header2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: left;
+  color: #172b4d;
+  margin-top: 7.125rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.primary-info-paragraph {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: left;
+  line-height: 1.5rem;
+  color: #344563;
+  margin-top: 1.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: 0.75rem;
+  margin-left: 1.5rem;
+}
+
+.lets-connect {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #7f8cff;
+  margin-bottom: 1.625rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.media-links-aboutmyself {
+  display: flex;
+  list-style-type: none;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.media-links li {
+  margin-right: 1.5rem;
+}
+
+.media-links-aboutmyself li {
+  margin-right: 1.5rem;
+}
+
+.tech-info {
+  list-style: none;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.tech-info-font {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: #000;
+  margin-right: 4rem;
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+  margin-bottom: 1.4375rem;
+}
+
+.languages-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.25rem;
+}
+
+.dev-language {
+  display: flex;
+  margin-bottom: 0.75rem;
+  margin-right: 2.25rem;
+  background-color: #f7f7f9;
+  align-items: center;
+}
+
+.lang-span {
+  color: #253858;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  font-style: bolder;
+  line-height: 1.25rem;
+  margin-left: 1rem;
+}
+
+.image-lang {
+  padding-top: 0.5625rem;
+  padding-left: 0.75rem;
+  padding-bottom: 0.6075rem;
+}
+
+.tech-info-font-border-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: #000;
+  margin-right: 4rem;
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+  margin-bottom: 1.4375rem;
+  border-bottom: 0.0625rem #dfe1e6 solid;
+}
