@@ -131,6 +131,18 @@ body {
   list-style-type: none;
 }
 
+.position-html {
+  color: black;
+}
+
+.position-CSS {
+  color: black;
+}
+
+.position-JS {
+  color: black;
+}
+
 .tags {
   margin-top: 0.75rem;
   padding: 0.25rem 0.75rem;
