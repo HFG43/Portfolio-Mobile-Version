@@ -126,9 +126,21 @@ body {
 }
 
 .tags-container {
-  display: flex;
+  display: inline;
   margin-left: 1rem;
   list-style-type: none;
+}
+
+.position-html {
+float: left;
+}
+
+.position-CSS {
+float: left;
+}
+
+.position-JS {
+float: left;
 }
 
 .tags {
