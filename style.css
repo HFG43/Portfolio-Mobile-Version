@@ -126,21 +126,11 @@ body {
 }
 
 .tags-container {
-  display: inline;
-  margin-left: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   list-style-type: none;
-}
-
-.position-html {
-  float: left;
-}
-
-.position-CSS {
-  float: left;
-}
-
-.position-JS {
-  float: left;
+  width: 1.5em;
+  padding: 1em;
 }
 
 .tags {
