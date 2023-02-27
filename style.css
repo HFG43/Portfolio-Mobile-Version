@@ -126,21 +126,24 @@ body {
 }
 
 .tags-container {
-  display: flex;
+  display: inline;
   margin-left: 1rem;
   list-style-type: none;
 }
 
 .position-html {
   color: black;
+  float: left;
 }
 
 .position-CSS {
   color: black;
+  float: left;
 }
 
 .position-JS {
   color: black;
+  float: left;
 }
 
 .tags {
