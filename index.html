@@ -222,10 +222,10 @@
       If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it 
     </p>
     <form id="contact-me-form" action="https://formspree.io/f/xbjeygan" method="post">
-      <input class="contact-me-name" type="text" name="name" placeholder="Hernán" pattern={1,5} required/>
-      <input class="contact-me-email" type="email" name="email" placeholder="hernanguemes@hotmail.com" required>
+      <input class="contact-me-name" type="text" name="name" placeholder="Hernán" pattern={1,5} required maxlength="30" minlength="5"/>
+      <input class="contact-me-email" type="email" name="email" placeholder="hernanguemes@hotmail.com" name="contact-email-address" required>
       </label>
-      <textarea class="contact-me-textarea" placeholder="Write your message here" pattern={1,500} required></textarea>
+      <textarea class="contact-me-textarea" placeholder="Write your message here" pattern={1,500} required cols="30" rows="8" maxlength="500" minlength="5"></textarea>
       <div class="action-button">
         <button class="contact-me-submit-button" type="submit">Get in touch</button>
       </div>  
