@@ -96,7 +96,7 @@ Still needs review before deployment availability.
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+I will like to thank to Stenli Suryadinata https://github.com/stenlisuryadinata who helped me with the Form doing Pair Programing
 
 👤 **Author1**
 
