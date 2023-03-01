@@ -360,6 +360,8 @@ body {
   margin-top: 3.125rem;
   margin-bottom: 1.25rem;
   padding: 0.9375rem 2.375rem 0.9375rem 1rem;
+  border: none;
+  outline: none;
   border-radius: 0.5rem;
   color: #172b4d;
   font-family: 'Poppins', sans-serif;
@@ -370,6 +372,8 @@ body {
 }
 
 .contact-me-email {
+  border: none;
+  outline: none;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   margin-bottom: 1.125rem;
@@ -387,6 +391,8 @@ body {
 }
 
 .contact-me-textarea {
+  border: none;
+  outline: none;
   border-radius: 0.5rem;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
