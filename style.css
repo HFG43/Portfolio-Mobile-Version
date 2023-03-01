@@ -25,9 +25,9 @@ body {
 }
 
 .my-logo {
-  height: 1.875rem;
-  width: 1.875rem;
-  margin-top: 3.625rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  margin-top: 1.9375rem;
 }
 
 .primary-info {
@@ -46,7 +46,7 @@ body {
   color: #172b4d;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
-  margin-top: 110px;
+  margin-top: 6.875rem;
 }
 
 .media-links {
@@ -310,4 +310,136 @@ body {
   padding: 0.5rem;
   margin-bottom: 1.4375rem;
   border-bottom: 0.0625rem #dfe1e6 solid;
+}
+
+#contact-me {
+  border-top-left-radius: 6.25rem;
+  background-color: #6070ff;
+  margin-top: 7.75rem;
+  display: flex;
+}
+
+.contact-me-background {
+  position: relative;
+  background-image: url(Images/Contact\ Me\ Backg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: 9.5625rem;
+}
+
+.header-contact-me {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  text-align: center;
+  margin-top: 6.4375rem;
+  margin-bottom: 0.75rem;
+}
+
+.contact-me-paragraph {
+  color: #ebebff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+  text-align: center;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+#contact-me-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-me-name {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: 3.125rem;
+  margin-bottom: 1.25rem;
+  padding: 0.9375rem 2.375rem 0.9375rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  color: #172b4d;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.0625rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  text-align: left;
+}
+
+.contact-me-email {
+  border: none;
+  outline: none;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: 1.125rem;
+  border-radius: 0.5rem;
+  padding: 0.9375rem 2.375rem 0.9375rem 1rem;
+  text-align: left;
+}
+
+::placeholder {
+  color: #172b4d;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.0625rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+}
+
+.contact-me-textarea {
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: 1.375rem;
+  padding: 0.9375rem 2.375rem 0.9375rem 1rem;
+}
+
+textarea::placeholder {
+  color: #b3bac5;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  text-align: left;
+}
+
+.contact-me-submit-button {
+  border-radius: 1rem;
+  padding: 0.75rem;
+  border: 0.0625rem solid #396df2;
+  color: #396df2;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.0625rem;
+  background-color: #fff;
+  margin-left: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.contact-me-submit-button:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.contact-me-submit-button:disabled {
+  border: 1px solid #5e6c84;
+  color: #5e6c84;
+}
+
+.contact-me-submit-button:active {
+  color: #fff;
+  background-color: #2230d2;
+}
+
+.closing-line {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5rem;
 }
