@@ -37,6 +37,23 @@ body {
   display: inline-block;
 }
 
+.animation {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 .header1 {
   display: flex;
   font-family: 'Poppins', sans-serif;
@@ -483,8 +500,10 @@ textarea::placeholder {
 }
 
 .card-work-insider-desktop {
-  display: flex
+display: flex;
   background-color: #fff;
   display: grid;
   grid-template-columns: 50% 50%;
+
 }
+
