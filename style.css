@@ -443,3 +443,49 @@ textarea::placeholder {
   justify-content: center;
   margin-bottom: 0.5rem;
 }
+
+@media screen and (max-width:768px) {
+  .mobile-hide {
+    display: none;
+  }
+}
+
+@media screen and (min-width:768px) {
+  body {
+    width: 1440px;
+    height: 916px;  
+  }
+
+  .desktop-hide {
+    display: none;
+  }
+
+  .desktop-shown {
+    display: contents;
+  }
+  
+  .my-logo {
+    width: 5%;
+    height: auto;
+    margin-top: 16px;
+  }
+}
+
+.card-works-desktop {
+  border-radius: 1rem;
+  justify-self: center;
+  display: flex;;
+  grid-template-columns: auto;
+  row-gap: 7.125rem;
+  margin-top: 7.125rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.card-work-insider-desktop {
+display: flex
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+}
