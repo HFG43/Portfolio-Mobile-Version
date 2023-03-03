@@ -475,22 +475,35 @@ textarea::placeholder {
 
 .image-snapshot-desktop-left {
   grid-area: 1 / 1 / 6 / 2;
+  margin-left: 24px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .title-desktop-right {
   grid-area: 1 / 2 / 2 / 3;
+  margin-top: 48px;
+  margin-left: 46px;
+  margin-right: 46px;
 }
 
 .frame-desktop-right {
   grid-area: 2 / 2 / 3 / 3;
+  margin-top: 20px;
+  margin-left: 46px;
 }
 
 .primary-project-text-desktop-right {
   grid-area: 3 / 2 / 4 / 3;
+  margin-top: 32px;
+  margin-left: 46px;
+  margin-right: 46px;
+  margin-bottom: 28;
 }
 
 .tags-desktop-right {
   grid-area: 4 / 2 / 5 / 3;
+  
 }
 
 .button-desktop-right {
@@ -499,10 +512,16 @@ textarea::placeholder {
 
 .image-snapshot-desktop-right {
   grid-area: 1 / 2 / 6 / 3;
+  margin-right: 24px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .title-desktop-left {
   grid-area: 1 / 1 / 2 / 2;
+  margin-top: 48px;
+  margin-left: 48px;
+  margin-right: 48px;
 }
 
 .frame-desktop-left {
@@ -530,9 +549,12 @@ textarea::placeholder {
   color: #091e42;
   height: 46px;
   width: 496px;  
+  margin-left: 46px;
+  margin-top: 48px;
 }
 
 .primary-project-text-desktop {
+  margin-left: 100px;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -543,6 +565,8 @@ textarea::placeholder {
   width: 496px;
   left: 24px;
   top: 146px;
+  margin-left: 46px;
+  margin-right: 46px;
 }
 
 .frame-2-desktop {
@@ -706,7 +730,12 @@ textarea::placeholder {
     flex-direction: column;
     
   }
+
+  .margin-lang-frame {
+    margin-right: 184px;
+  }
   .desktop-lang-font {
+    padding-bottom: 29px;
     height: 24px;
     font-size: 20px;
     font-weight: 500;
