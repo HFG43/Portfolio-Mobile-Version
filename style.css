@@ -474,7 +474,7 @@ textarea::placeholder {
 .card-works-desktop {
   border-radius: 1rem;
   justify-self: center;
-  display: flex;;
+  display: flex;
   grid-template-columns: auto;
   row-gap: 7.125rem;
   margin-top: 7.125rem;
@@ -483,8 +483,58 @@ textarea::placeholder {
 }
 
 .card-work-insider-desktop {
-  display: flex
+  display: flex;
   background-color: #fff;
   display: grid;
   grid-template-columns: 50% 50%;
 }
+
+
+.image-snapshot-desktop-left {
+  grid-area: 1 / 1 / 6 / 2;
+}
+
+.title-desktop-right {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.frame-desktop-right {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.primary-project-text-desktop-right {
+  grid-area: 3 / 2 / 4 / 3;
+}
+
+.tags-desktop-right {
+  grid-area: 4 / 2 / 5 / 3;
+}
+
+.button-desktop-right {
+  grid-area: 5 / 2 / 6 / 3;
+}
+
+.image-snapshot-desktop-right {
+  grid-area: 1 / 2 / 6 / 3;
+}
+
+.title-desktop-left {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.frame-desktop-left {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.primary-project-text-desktop-left {
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.tags-desktop-left {
+  grid-area: 4 / 1 / 5 / 2;
+}
+
+.button-desktop-left {
+  grid-area: 5 / 1 / 6 / 2;
+}
+
