@@ -657,4 +657,44 @@ textarea::placeholder {
     grid-area: 2;
   }
 
+  .languages-list {
+    flex-direction: row;
+  }
+
+  .header2 {
+    color: #091e42;
+    height: 114px;
+    width: 447px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    text-align: left;
+    margin-left: 142px;
+    margin-top: 142px;
+    margin-bottom: 12px;
+  }
+
+  #about-m-pag-desktop {
+    height: 102px;
+    width: 447px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #344563;
+    margin-left: 142px;
+    margin-bottom: 12px;
+  }
+
+  #about-m-letsconnect-desktop {
+    margin-left: 142px;
+    margin-bottom: 26px;
+  }
+
+  #about-m-media-links-desktop-margin {
+    margin-left: 153px;
+  }
+
+  #about-me-desktop-button-margin {
+    margin-left: 142px;
+  }
 }
