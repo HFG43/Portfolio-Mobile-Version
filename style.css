@@ -698,7 +698,6 @@ textarea::placeholder {
 
   .header2 {
     color: #091e42;
-    height: 114px;
     width: 447px;
     font-size: 40px;
     font-weight: 700;
@@ -739,10 +738,17 @@ textarea::placeholder {
 
   .dev-language {
     flex-direction: column;
+    display: flex;
+    margin-right: 24px;
+    align-items: flex-start;
   }
 
-  .margin-lang-frame {
+   .margin-lang-frame {
     margin-right: 184px;
+  }
+
+  .image-lang {
+    padding-left: 0;
   }
 
   .desktop-lang-font {
@@ -756,13 +762,17 @@ textarea::placeholder {
     color: #344563;
   }
 
+  .lang-span {
+    margin-left: 0;
+    width: 98px;
+  }
+
   .contact-me-background {
     position: relative;
     background-image: url(Images/contact\ form\ background\ shapes.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position-x: 75.34px;
-    background-position-y: 79.09px;
+    background-position: 3% 10%;
   }
 
   .header-contact-me {
@@ -771,7 +781,8 @@ textarea::placeholder {
   }
 
   .contact-me-paragraph {
-    height: 102px;
+    line-height: 28px;
+    padding-bottom: 1rem;
     margin-left: 436px;
     margin-right: 435px;
     margin-bottom: 12px;
@@ -789,26 +800,27 @@ textarea::placeholder {
     height: 48px;
     width: 447px;
     border-radius: 2px;
-    margin-bottom: 27px
-    padding: 0.9375rem 2.375rem 0.9375rem 1rem;
-    border-radius: 0;
-    color: #172b4d;
-    text-align: center;
+    margin-bottom: 27px;
+    text-align: left;
   }
   
   .contact-me-email {
     height: 48px;
     width: 447px;
     margin-bottom: 27px;
+    border-radius: 2px;
   }
 
   .contact-me-textarea {
     height: 170px;
     width: 447px;
     margin-bottom: 27px;
+    border-radius: 2px;
   }
    
   .contact-me-submit-button {
     margin-bottom: 127px;
+    border-radius: 8px;
   }
 }
+
