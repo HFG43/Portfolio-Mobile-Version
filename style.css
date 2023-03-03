@@ -538,3 +538,43 @@ textarea::placeholder {
   grid-area: 5 / 1 / 6 / 2;
 }
 
+.project-title-desktop {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: left;
+  color: #091e42;
+  height: 46px;
+  width: 496px;  
+}
+
+.primary-project-text-desktop {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  height: 50px;
+  width: 496px;
+  left: 24px;
+  top: 146px;
+}
+
+.frame-2-desktop {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  height: 24px;
+  width: 96px;
+  top: 8px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+  font-family: 'Poppins', sans-serif;
+  color: #6b778c;
+}
+
