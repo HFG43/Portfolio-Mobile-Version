@@ -697,4 +697,22 @@ textarea::placeholder {
   #about-me-desktop-button-margin {
     margin-left: 142px;
   }
+
+  #about-me-desktop-lang-margin {
+    margin-top: 166px;
+  }
+
+  .dev-language {
+    flex-direction: column;
+    
+  }
+  .desktop-lang-font {
+    height: 24px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #344563;
+  }
 }
