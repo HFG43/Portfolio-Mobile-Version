@@ -179,7 +179,7 @@ body {
   background-color: #2230d2;
 }
 
-#last-card {
+.last-card {
   margin-bottom: 7.75rem;
 }
 
@@ -568,6 +568,7 @@ textarea::placeholder {
   line-height: 24px;
 }
 
+
 @media screen and (max-width:768px) {
   .mobile-hide {
     display: none;
@@ -640,4 +641,20 @@ textarea::placeholder {
     background-size: contain;
     background-position-x: 9.5625rem;
   }
+
+  #about-myself {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #fff;
+    border-top-right-radius: 6.25rem;
+  }
+  
+  #desktop-grid-1 {
+    grid-area: 1;
+  }
+
+  #desktop-grid-2 {
+    grid-area: 2;
+  }
+
 }
