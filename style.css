@@ -478,6 +478,10 @@ textarea::placeholder {
   margin-left: 24px;
   margin-top: 24px;
   margin-bottom: 24px;
+  height: 448px;
+  width: 544px;
+  border-radius: 8px;
+
 }
 
 .title-desktop-right {
@@ -503,11 +507,14 @@ textarea::placeholder {
 
 .tags-desktop-right {
   grid-area: 4 / 2 / 5 / 3;
-  
+  margin-left: 46px;
+  height: auto; 
 }
 
 .button-desktop-right {
   grid-area: 5 / 2 / 6 / 3;
+
+
 }
 
 .image-snapshot-desktop-right {
@@ -526,18 +533,26 @@ textarea::placeholder {
 
 .frame-desktop-left {
   grid-area: 2 / 1 / 3 / 2;
+  margin-top: 0;
+  margin-left: 48px;
 }
 
 .primary-project-text-desktop-left {
   grid-area: 3 / 1 / 4 / 2;
+  margin-left: 48px;
+  margin-right: 48px;
+
 }
 
 .tags-desktop-left {
   grid-area: 4 / 1 / 5 / 2;
+  margin-left: 48px;
+ 
 }
 
 .button-desktop-left {
   grid-area: 5 / 1 / 6 / 2;
+  margin-left: 48px;
 }
 
 .project-title-desktop {
