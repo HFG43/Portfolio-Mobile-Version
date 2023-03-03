@@ -470,6 +470,7 @@ textarea::placeholder {
   background-color: #fff;
   display: grid;
   grid-template-columns: 50% 50%;
+  column-gap: 46px;
 }
 
 .image-snapshot-desktop-left {
@@ -485,27 +486,26 @@ textarea::placeholder {
 .title-desktop-right {
   grid-area: 1 / 2 / 2 / 3;
   margin-top: 48px;
-  margin-left: 46px;
-  margin-right: 46px;
+  margin-left: 0;  
 }
 
 .frame-desktop-right {
   grid-area: 2 / 2 / 3 / 3;
   margin-top: 20px;
-  margin-left: 46px;
+  margin-left: 0;
 }
 
 .primary-project-text-desktop-right {
   grid-area: 3 / 2 / 4 / 3;
   margin-top: 32px;
-  margin-left: 46px;
+  margin-left: 0;
   margin-right: 46px;
   margin-bottom: 28;
 }
 
 .tags-desktop-right {
   grid-area: 4 / 2 / 5 / 3;
-  margin-left: 46px;
+  margin-left: 0;
   height: auto; 
 }
 
@@ -535,7 +535,7 @@ textarea::placeholder {
 
 .primary-project-text-desktop-left {
   grid-area: 3 / 1 / 4 / 2;
-  margin-left: 48px;
+  margin-left: 0;
   margin-right: 48px;
 
 }
@@ -543,7 +543,6 @@ textarea::placeholder {
 .tags-desktop-left {
   grid-area: 4 / 1 / 5 / 2;
   margin-left: 48px;
- 
 }
 
 .button-desktop-left {
@@ -560,12 +559,11 @@ textarea::placeholder {
   color: #091e42;
   height: 46px;
   width: 496px;  
-  margin-left: 46px;
   margin-top: 48px;
+  margin-bottom: 20px;
 }
 
 .primary-project-text-desktop {
-  margin-left: 100px;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -576,8 +574,6 @@ textarea::placeholder {
   width: 496px;
   left: 24px;
   top: 146px;
-  margin-left: 46px;
-  margin-right: 46px;
 }
 
 .frame-2-desktop {
@@ -830,5 +826,9 @@ textarea::placeholder {
     margin-top: 0;
     padding-top: 0;
   }
+
+  .see-project-button {
+    margin-top: 40px;
+    margin-left: 0;
 }
 
