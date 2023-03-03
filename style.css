@@ -473,8 +473,24 @@ textarea::placeholder {
   column-gap: 46px;
 }
 
+#card1 {
+ 
+}
+
+#card2 {
+
+}
+
+#card3 {
+
+}
+
+#card4 {
+
+}
+
 .image-snapshot-desktop-left {
-  grid-area: 1 / 1 / 6 / 2;
+  grid-area: 1 / 1 / 20 / 2;
   margin-left: 24px;
   margin-top: 24px;
   margin-bottom: 24px;
@@ -486,31 +502,30 @@ textarea::placeholder {
 .title-desktop-right {
   grid-area: 1 / 2 / 2 / 3;
   margin-top: 48px;
-  margin-left: 0;  
+  margin-left: 0;
 }
 
 .frame-desktop-right {
   grid-area: 2 / 2 / 3 / 3;
-  margin-top: 20px;
   margin-left: 0;
 }
 
 .primary-project-text-desktop-right {
-  grid-area: 3 / 2 / 4 / 3;
-  margin-top: 32px;
+  grid-area: 5 / 2 / 6 / 3;
   margin-left: 0;
   margin-right: 46px;
   margin-bottom: 28;
 }
 
 .tags-desktop-right {
-  grid-area: 4 / 2 / 5 / 3;
+  grid-area: 8 / 2 / 9 / 3;
   margin-left: 0;
-  height: auto; 
+ 
 }
 
 .button-desktop-right {
-  grid-area: 5 / 2 / 6 / 3;
+  grid-area: 12 / 2 / 13 / 3;
+  
 }
 
 .image-snapshot-desktop-right {
@@ -537,7 +552,6 @@ textarea::placeholder {
   grid-area: 3 / 1 / 4 / 2;
   margin-left: 0;
   margin-right: 48px;
-
 }
 
 .tags-desktop-left {
@@ -554,13 +568,10 @@ textarea::placeholder {
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
   font-weight: 700;
-  line-height: 52px;
   text-align: left;
   color: #091e42;
-  height: 46px;
-  width: 496px;  
   margin-top: 48px;
-  margin-bottom: 20px;
+  padding-bottom: 0;
 }
 
 .primary-project-text-desktop {
@@ -572,24 +583,22 @@ textarea::placeholder {
   text-align: left;
   height: 50px;
   width: 496px;
-  left: 24px;
-  top: 146px;
+  margin-bottom: 32px;
 }
 
 .frame-2-desktop {
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
-  height: 24px;
-  width: 96px;
-  top: 8px;
-  margin-top: 20px;
   display: flex;
   justify-content: flex-start;
   list-style-type: none;
   font-family: 'Poppins', sans-serif;
   color: #6b778c;
+}
+
+.frame-2-desktop li {
+  margin-right: 12px;
 }
 
 .frame-first-attribute {
@@ -599,7 +608,21 @@ textarea::placeholder {
   line-height: 24px;
 }
 
-
+.tags-desktop {
+  padding: 0.25rem 0.75rem;
+  background-color: #ebebff;
+  border-radius: 0.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.75rem;
+  margin-right: 8px;
+  color: #6070ff;
+  height: 24px;
+}
+.button-grid-desktop {
+  margin: 0;
+}
 @media screen and (max-width:768px) {
   .mobile-hide {
     display: none;
@@ -830,5 +853,6 @@ textarea::placeholder {
   .see-project-button {
     margin-top: 40px;
     margin-left: 0;
-}
+  }
 
+}
