@@ -461,13 +461,13 @@ textarea::placeholder {
   margin-bottom: 0.5rem;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .mobile-hide {
     display: none;
   }
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
   body {
     width: 1440px;
     height: 916px;
@@ -480,7 +480,7 @@ textarea::placeholder {
   .desktop-shown {
     display: contents;
   }
-  
+
   .my-logo {
     width: 5%;
     height: auto;
@@ -500,7 +500,6 @@ textarea::placeholder {
 }
 
 .card-work-insider-desktop {
-  display: flex;
   background-color: #fff;
   display: grid;
   grid-template-columns: 50% 50%;
