@@ -470,7 +470,7 @@ textarea::placeholder {
 @media screen and (min-width:768px) {
   body {
     width: 1440px;
-    height: 916px;  
+    height: 916px;
   }
 
   .desktop-hide {
@@ -491,7 +491,7 @@ textarea::placeholder {
 .card-works-desktop {
   border-radius: 1rem;
   justify-self: center;
-  display: flex;;
+  display: flex;
   grid-template-columns: auto;
   row-gap: 7.125rem;
   margin-top: 7.125rem;
@@ -500,10 +500,8 @@ textarea::placeholder {
 }
 
 .card-work-insider-desktop {
-display: flex;
+  display: flex;
   background-color: #fff;
   display: grid;
   grid-template-columns: 50% 50%;
-
 }
-
