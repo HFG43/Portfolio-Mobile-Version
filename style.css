@@ -472,7 +472,6 @@ textarea::placeholder {
   grid-template-columns: 50% 50%;
 }
 
-
 .image-snapshot-desktop-left {
   grid-area: 1 / 1 / 6 / 2;
   margin-left: 24px;
@@ -481,7 +480,6 @@ textarea::placeholder {
   height: 448px;
   width: 544px;
   border-radius: 8px;
-
 }
 
 .title-desktop-right {
@@ -513,8 +511,6 @@ textarea::placeholder {
 
 .button-desktop-right {
   grid-area: 5 / 2 / 6 / 3;
-
-
 }
 
 .image-snapshot-desktop-right {
@@ -743,12 +739,12 @@ textarea::placeholder {
 
   .dev-language {
     flex-direction: column;
-    
   }
 
   .margin-lang-frame {
     margin-right: 184px;
   }
+
   .desktop-lang-font {
     padding-bottom: 29px;
     height: 24px;
@@ -758,5 +754,61 @@ textarea::placeholder {
     letter-spacing: 0em;
     text-align: left;
     color: #344563;
+  }
+
+  .contact-me-background {
+    position: relative;
+    background-image: url(Images/contact\ form\ background\ shapes.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 75.34px;
+    background-position-y: 79.09px;
+  }
+
+  .header-contact-me {
+    margin-top: 142px;
+    margin-bottom: 12px;
+  }
+
+  .contact-me-paragraph {
+    height: 102px;
+    margin-left: 436px;
+    margin-right: 435px;
+    margin-bottom: 12px;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  
+  #contact-me-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-me-name {
+    height: 48px;
+    width: 447px;
+    border-radius: 2px;
+    margin-bottom: 27px
+    padding: 0.9375rem 2.375rem 0.9375rem 1rem;
+    border-radius: 0;
+    color: #172b4d;
+    text-align: center;
+  }
+  
+  .contact-me-email {
+    height: 48px;
+    width: 447px;
+    margin-bottom: 27px;
+  }
+
+  .contact-me-textarea {
+    height: 170px;
+    width: 447px;
+    margin-bottom: 27px;
+  }
+   
+  .contact-me-submit-button {
+    margin-bottom: 127px;
   }
 }
