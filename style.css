@@ -652,13 +652,13 @@ textarea::placeholder {
 
   .primary-info-paragraph {
     margin-left: 260px;
-    margin-right: 260px;
     height: 98px;
     width: 920px;
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
     color: #344563;
+    margin-right: 0;
   }
 
   .lets-connect {
@@ -679,21 +679,24 @@ textarea::placeholder {
 
   #about-myself {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 589px auto;
+    column-gap: 49px;
     background-color: #fff;
-    border-top-right-radius: 6.25rem;
   }
   
   #desktop-grid-1 {
     grid-area: 1;
+    margin-top: 142px;
   }
 
   #desktop-grid-2 {
     grid-area: 2;
+    margin-top: 166px;
   }
 
   .languages-list {
     flex-direction: row;
+    margin-bottom: 56px;
   }
 
   .header2 {
@@ -704,8 +707,9 @@ textarea::placeholder {
     line-height: 52px;
     text-align: left;
     margin-left: 142px;
-    margin-top: 142px;
     margin-bottom: 12px;
+    margin-top: 0;
+    margin-right: 0;
   }
 
   #about-m-pag-desktop {
@@ -752,7 +756,6 @@ textarea::placeholder {
   }
 
   .desktop-lang-font {
-    padding-bottom: 29px;
     height: 24px;
     font-size: 20px;
     font-weight: 500;
@@ -821,6 +824,11 @@ textarea::placeholder {
   .contact-me-submit-button {
     margin-bottom: 127px;
     border-radius: 8px;
+  }
+
+  #margin-desktop-language {
+    margin-top: 0;
+    padding-top: 0;
   }
 }
 
