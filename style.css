@@ -510,7 +510,7 @@ textarea::placeholder {
 }
 
 .image-snapshot-desktop-right {
-  grid-area: 1 / 2 / 6 / 3;
+  grid-area: 1 / 2 / 20 / 3;
   margin-right: 24px;
   margin-top: 24px;
   margin-bottom: 24px;
@@ -520,7 +520,6 @@ textarea::placeholder {
   grid-area: 1 / 1 / 2 / 2;
   margin-top: 48px;
   margin-left: 48px;
-  margin-right: 48px;
 }
 
 .frame-desktop-left {
@@ -530,17 +529,26 @@ textarea::placeholder {
 }
 
 .primary-project-text-desktop-left {
-  grid-area: 5 / 1 / 6 / 2;
-  margin-left: 0;
-  margin-right: 48px;
-}
-
-.tags-desktop-left {
   grid-area: 6 / 1 / 7 / 2;
   margin-left: 48px;
 }
 
+.tags-desktop-left {
+  grid-area: 8 / 1 / 9 / 2;
+  margin-left: 48px;
+}
+
+#tags-desktop-uber {
+  grid-area: 7 / 1 / 8 / 2;
+  margin-left: 48px;
+}
+
 .button-desktop-left {
+  grid-area: 11 / 1 / 12 / 2;
+  margin-left: 48px;
+}
+
+#button-desktop-uber {
   grid-area: 9 / 1 / 10 / 2;
   margin-left: 48px;
 }
@@ -553,6 +561,10 @@ textarea::placeholder {
   color: #091e42;
   margin-top: 48px;
   padding-bottom: 0;
+}
+
+#uber-parag {
+  margin-bottom: 0;
 }
 
 .primary-project-text-desktop {
@@ -804,7 +816,7 @@ textarea::placeholder {
     margin-left: 436px;
     margin-right: 435px;
     margin-bottom: 12px;
-    font-size: 20px;    
+    font-size: 20px; 
   }
 
   #contact-me-form {
