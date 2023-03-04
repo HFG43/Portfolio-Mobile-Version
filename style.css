@@ -38,27 +38,27 @@ body {
 
 @keyframes entrance {
   from {
-    width: 10%;
+    width: 5%;
   }
 
   25% {
-    width: 15%;
+    width: 9%;
   }
 
   40% {
-    width: 20%;
+    width: 12%;
   }
 
   50% {
-    widht: 25%
+    widht: 16%;
   }
 
   75% {
-    width: 30%;
+    width: 12%;
   }
-  
+
   to {
-    width: 25%;
+    width: 7%;
   }
 }
 
@@ -505,6 +505,7 @@ textarea::placeholder {
 #border-facebook-card {
   border: solid 2px #a7aeff;
   border-radius: 1.5rem;
+  box-shadow: 24px 24px 10px #e5e5e5 ;
 }
 
 .card-work-insider-desktop {
@@ -746,12 +747,12 @@ textarea::placeholder {
     background-image: url(Images/Header-1-bg-desktop.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    display: inline-block;
-    background-position-x: 2.1625rem;
+    background-position-x: 0.75rem;
   }
 
   .header1 {
     margin-left: 16.25rem;
+    margin-right: 16.25rem;
     color: #091e42;
     height: 7.625rem;
     width: 57.5rem;
