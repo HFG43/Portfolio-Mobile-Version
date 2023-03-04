@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+html {
+  font-family: 'Poppins', sans-serif;
+  font-size: 100%;
+}
+
 body {
   background-color: #fff;
   width: 100%;
@@ -552,6 +557,7 @@ textarea::placeholder {
 .tags-desktop-right {
   grid-area: 6 / 2 / 7 / 3;
   margin-left: 0;
+  margin-right: 3.5%;
 }
 
 .button-desktop-right {
@@ -586,6 +592,7 @@ textarea::placeholder {
 .tags-desktop-left {
   grid-area: 8 / 1 / 9 / 2;
   margin-left: 3.324%;
+
 }
 
 #tags-desktop-uber {
@@ -694,6 +701,8 @@ textarea::placeholder {
   color: #fff;
   background-color: #2230d2;
   font-size: 1.0625rem;
+  margin-bottom: 8.3%;
+  margin-top: 3%;
 }
 
 .button-facebook:active {
@@ -765,6 +774,10 @@ textarea::placeholder {
     text-align: left;
   }
 
+  .lets-connect {
+    margin-left: 18%;
+  }
+  
   .primary-info-paragraph {
     margin-left: 18%;
     height: 6.7867%;
@@ -776,29 +789,15 @@ textarea::placeholder {
     margin-right: 0;
   }
 
-  .lets-connect {
-    margin-left: 18%;
-  }
-
   .media-links {
     margin-left: 18%;
   }
 
   #about-myself {
     display: grid;
-    grid-template-columns: 40.7895% auto;
-    column-gap: 3.393%;
+    grid-template-columns: 40.7895% 56.648%;
+    column-gap: 2.562%;
     background-color: #fff;
-  }
-
-  #desktop-grid-1 {
-    grid-area: 1;
-    margin-top: 15.5%;
-  }
-
-  #desktop-grid-2 {
-    grid-area: 2;
-    margin-top: 11.49585%;
   }
 
   .languages-list {
@@ -808,39 +807,52 @@ textarea::placeholder {
 
   .header2 {
     color: #091e42;
-    width: 30.95567%;
+    width: 75%;
     font-size: 2.5rem;
     font-weight: 700;
     line-height: 3.25rem;
     text-align: left;
-    margin-left: 9.83379%;
+    margin-left: 24.1%;
     margin-bottom: 1.31%;
-    margin-top: 0;
+    margin-top: 15.5%;
     margin-right: 0;
   }
 
   #about-m-pag-desktop {
     height: 11.1353%;
-    width: 30.95567%;
+    width: 79.536%;
     font-size: 1rem;
     font-weight: 400;
-    line-height: 1.5rem;
     color: #344563;
-    margin-left: 9.83379%;
+    margin-left: 24.1%;
+    margin-right: 0;
     margin-bottom: 1.31%;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
   }
 
   #about-m-letsconnect-desktop {
-    margin-left: 9.83379%;
+    margin-left: 24.1%;
     margin-bottom: 2.838%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #7f8cff;
+    margin-bottom: 1.7%;   
+  }
+
+  .see-project-button {
+    margin-top: 4.366%;
   }
 
   #about-m-media-links-desktop-margin {
-    margin-left: 10.5955%;
+    margin-left: 24.1%;
   }
 
   #about-me-desktop-button-margin {
-    margin-left: 9.83379%;
+    margin-left: 24.1%;
   }
 
   #about-me-desktop-lang-margin {
@@ -891,8 +903,10 @@ textarea::placeholder {
   .contact-me-paragraph {
     line-height: 1.75rem;
     padding-bottom: 1rem;
-    margin-left: 30.1939%;
-    margin-right: 40.12465%;
+    width: 50.4%;
+    height: 11.135%;
+    margin-left: 30.19%;
+    margin-right: 30.19% ;
     margin-bottom: 1.31%;
     font-size: 1.25rem;
   }
@@ -933,10 +947,5 @@ textarea::placeholder {
   #margin-desktop-language {
     margin-top: 0;
     padding-top: 0;
-  }
-
-  .see-project-button {
-    margin-top: 4.366%;
-    margin-left: 0;
   }
 }
