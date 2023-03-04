@@ -487,6 +487,11 @@ textarea::placeholder {
   margin-left: 8.53%;
 }
 
+.cards-desktop {
+  margin-left: 9.8337%;
+  margin-right: 9.8337%;
+}
+
 .card-works-desktop {
   border: solid 1px #dfe1e6;
   border-radius: 1.5rem;
@@ -517,9 +522,11 @@ textarea::placeholder {
 
 .image-snapshot-desktop-left {
   grid-area: 1 / 1 / 20 / 2;
+  width: 98.337%;
+  height: auto;
   margin-left: 1.66%;
-  margin-top: 2.62%
-  margin-bottom: 2.62%
+  margin-top: 2.62%;
+  margin-bottom: 2.62%;
   border-radius: 8px;
 }
 
@@ -536,9 +543,10 @@ textarea::placeholder {
 
 .primary-project-text-desktop-right {
   grid-area: 5 / 2 / 6 / 3;
+  width: 92.5%;
   margin-left: 0;
   margin-right: 3.185%;
-  margin-bottom: 28;
+  margin-bottom: 2.62%;
 }
 
 .tags-desktop-right {
@@ -615,8 +623,6 @@ textarea::placeholder {
   font-weight: 400;
   line-height: 1.5rem;
   text-align: left;
-  height: 5.456%;
-  width: 34.349%;
   margin-bottom: 3.49%;
 }
 
