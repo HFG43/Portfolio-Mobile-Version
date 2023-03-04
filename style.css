@@ -323,6 +323,10 @@ body {
   padding-bottom: 0.6075rem;
 }
 
+.margin-html-css {
+  margin-right: 4.07%;
+}
+
 .tech-info-font-border-bottom {
   display: flex;
   flex-direction: row;
@@ -541,6 +545,10 @@ textarea::placeholder {
   margin-left: 0;
 }
 
+.attribute-margin{
+  margin-right: 12px;
+}
+
 .primary-project-text-desktop-right {
   grid-area: 5 / 2 / 6 / 3;
   width: 92.5%;
@@ -565,6 +573,8 @@ textarea::placeholder {
   margin-top: 2.62%;
   margin-bottom: 2.62%;
   border-radius: 0.5rem;
+  width: 94%;
+  height: auto;
 }
 
 .title-desktop-left {
@@ -629,6 +639,7 @@ textarea::placeholder {
 
 .frame-2-desktop {
   font-size: 1.125rem;
+  margin-top: 2.2%;
   font-weight: 400;
   line-height: 1.5rem;
   display: flex;
@@ -638,8 +649,8 @@ textarea::placeholder {
   color: #6b778c;
 }
 
-.frame-2-desktop li {
-  margin-right: 0.83%;
+.attribute-margin {
+ padding-right: 0.831%;
 }
 
 .frame-first-attribute {
@@ -665,6 +676,7 @@ textarea::placeholder {
 
 .button-grid-desktop {
   margin: 0;
+  margin-top: 4,8%;
   border-radius: 1rem;
   padding: 0.75rem;
   border: 0.0625rem solid #396df2;
@@ -696,7 +708,6 @@ textarea::placeholder {
   background-color: #2230d2;
   font-size: 1.0625rem;
   margin-bottom: 8.3%;
-  margin-top: 3%;
 }
 
 .button-facebook:active {
@@ -858,11 +869,8 @@ textarea::placeholder {
     display: flex;
     margin-right: 1.662%;
     align-items: flex-start;
-    width: 14.9%;
-  }
-
-  .margin-lang-frame {
-    margin-right: 12.7423%;
+    padding-right: 2.1%;
+    width: 122px;
   }
 
   .image-lang {
