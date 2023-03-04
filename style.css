@@ -319,7 +319,7 @@ body {
   font-weight: 500;
   font-style: bolder;
   line-height: 1.25rem;
-  margin-left: 4.26%
+  margin-left: 4.26%;
 }
 
 .image-lang {
@@ -592,7 +592,6 @@ textarea::placeholder {
 .tags-desktop-left {
   grid-area: 8 / 1 / 9 / 2;
   margin-left: 3.324%;
-
 }
 
 #tags-desktop-uber {
@@ -758,7 +757,7 @@ textarea::placeholder {
   .primary-info {
     background-image: url(Images/Header-1-bg-desktop.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position-x: 0.75rem;
   }
 
@@ -777,7 +776,7 @@ textarea::placeholder {
   .lets-connect {
     margin-left: 18%;
   }
-  
+
   .primary-info-paragraph {
     margin-left: 18%;
     height: 6.7867%;
@@ -840,7 +839,6 @@ textarea::placeholder {
     font-size: 1rem;
     line-height: 1.5rem;
     color: #7f8cff;
-    margin-bottom: 1.7%;
   }
 
   .see-project-button {
@@ -892,9 +890,9 @@ textarea::placeholder {
 
   .contact-me-background {
     position: relative;
-    background-image: url(Images/contact\ form\ background\ shapes.svg);
+    background-image: url(Images/BG\ end\ Contact\ Form\ Desktop.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
   }
 
   .header-contact-me {
@@ -908,7 +906,7 @@ textarea::placeholder {
     width: 39.5138%;
     height: 11.135%;
     margin-left: 30.19%;
-    margin-right: 30.19% ;
+    margin-right: 30.19%;
     margin-bottom: 1.31%;
     font-size: 1.25rem;
   }
@@ -946,7 +944,6 @@ textarea::placeholder {
     border-radius: 0.5rem;
     height: 5.24%;
     margin-left: 0;
-    border-radius: 1rem;
     padding: 0.75rem;
     border: 0.0625rem solid #396df2;
     color: #396df2;
@@ -956,7 +953,7 @@ textarea::placeholder {
     font-size: 1.0625rem;
     background-color: #fff;
   }
- 
+
   #margin-desktop-language {
     margin-top: 18.12%;
   }
