@@ -740,9 +740,9 @@ textarea::placeholder {
   }
 
   .my-logo {
-    width: 5%;
+    width: 6%;
     height: auto;
-    margin-top: 1.75%;
+    margin-top: 1%;
     margin-left: 10.734%;
   }
 
@@ -766,7 +766,7 @@ textarea::placeholder {
   }
 
   .primary-info-paragraph {
-    margin-left: 18%x;
+    margin-left: 18%;
     height: 6.7867%;
     width: 63.712%;
     font-size: 1.25rem;
