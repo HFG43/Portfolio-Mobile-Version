@@ -597,6 +597,7 @@ textarea::placeholder {
   font-weight: 500;
   font-size: 0.75rem;
   margin-right: 8px;
+  margin-left: 8px;
   color: #6070ff;
   height: 24px;
 }
@@ -612,6 +613,20 @@ textarea::placeholder {
   font-weight: 500;
   font-size: 1.0625rem;
   background-color: #fff;
+}
+
+.button-facebook {
+  color: #fff;
+  background-color: #2230d2;
+  font-size: 17px;
+}
+
+#hand-cursor {
+  width: 57px;
+  height: auto;
+  margin-left: 275px;
+  position: relative;
+  bottom: -24px;
 }
 
 @media screen and (max-width: 768px) {
