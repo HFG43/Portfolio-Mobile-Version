@@ -357,8 +357,7 @@ body {
   background-image: url(Images/Contact\ Me\ Backg.png);
   background-size: 90%;
   background-repeat: no-repeat;
-  background-size: contain;
-}
+ }
 
 .header-contact-me {
   color: #fff;
@@ -672,7 +671,7 @@ textarea::placeholder {
 
 .button-grid-desktop {
   margin: 0;
-  margin-top: 4,8%;
+  margin-top: 4.8%;
   border-radius: 1rem;
   padding: 0.75rem;
   border: 0.0625rem solid #396df2;
