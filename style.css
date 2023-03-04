@@ -484,6 +484,7 @@ textarea::placeholder {
 .right {
   column-gap: 23px;
 }
+
 .image-snapshot-desktop-left {
   grid-area: 1 / 1 / 20 / 2;
   margin-left: 1.5rem;
@@ -638,10 +639,40 @@ textarea::placeholder {
   background-color: #fff;
 }
 
+.button-grid-desktop:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.button-grid-desktop:disabled {
+  border: 1px solid #5e6c84;
+  color: #5e6c84;
+}
+
+.button-grid-desktop:active {
+  color: #fff;
+  background-color: #2230d2;
+}
+
 .button-facebook {
   color: #fff;
   background-color: #2230d2;
   font-size: 1.0625rem;
+}
+
+.button-facebook:active {
+  background-color: #fff;
+  color: #2230d2;
+}
+
+.button-facebook:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.button-facebook:disabled {
+  border: 1px solid #5e6c84;
+  color: #5e6c84;
 }
 
 #hand-cursor {
@@ -663,7 +694,7 @@ textarea::placeholder {
     width: 1440px;
     height: 916px;
   }
-  
+
   .desktop-hide {
     display: none;
   }
