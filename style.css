@@ -473,22 +473,6 @@ textarea::placeholder {
   column-gap: 46px;
 }
 
-#card1 {
- 
-}
-
-#card2 {
-
-}
-
-#card3 {
-
-}
-
-#card4 {
-
-}
-
 .image-snapshot-desktop-left {
   grid-area: 1 / 1 / 20 / 2;
   margin-left: 24px;
@@ -518,14 +502,12 @@ textarea::placeholder {
 }
 
 .tags-desktop-right {
-  grid-area: 8 / 2 / 9 / 3;
+  grid-area: 6 / 2 / 7 / 3;
   margin-left: 0;
- 
 }
 
 .button-desktop-right {
-  grid-area: 12 / 2 / 13 / 3;
-  
+  grid-area: 9 / 2 / 10 / 3;
 }
 
 .image-snapshot-desktop-right {
@@ -549,18 +531,18 @@ textarea::placeholder {
 }
 
 .primary-project-text-desktop-left {
-  grid-area: 3 / 1 / 4 / 2;
+  grid-area: 5 / 1 / 6 / 2;
   margin-left: 0;
   margin-right: 48px;
 }
 
 .tags-desktop-left {
-  grid-area: 4 / 1 / 5 / 2;
+  grid-area:  6 / 1 / 7 / 2;
   margin-left: 48px;
 }
 
 .button-desktop-left {
-  grid-area: 5 / 1 / 6 / 2;
+  grid-area: 9 / 1 / 10 / 2;
   margin-left: 48px;
 }
 
@@ -620,16 +602,27 @@ textarea::placeholder {
   color: #6070ff;
   height: 24px;
 }
+
 .button-grid-desktop {
   margin: 0;
+  border-radius: 1rem;
+  padding: 0.75rem;
+  border: 0.0625rem solid #396df2;
+  color: #396df2;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.0625rem;
+  background-color: #fff;
 }
-@media screen and (max-width:768px) {
+
+@media screen and (max-width: 768px) {
   .mobile-hide {
     display: none;
   }
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
   body {
     width: 1440px;
     height: 916px;  
@@ -766,7 +759,7 @@ textarea::placeholder {
     align-items: flex-start;
   }
 
-   .margin-lang-frame {
+  .margin-lang-frame {
     margin-right: 184px;
   }
 
@@ -854,5 +847,4 @@ textarea::placeholder {
     margin-top: 40px;
     margin-left: 0;
   }
-
 }
