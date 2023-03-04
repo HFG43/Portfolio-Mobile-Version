@@ -451,7 +451,7 @@ textarea::placeholder {
   font-size: 15px;
   font-weight: 500;
   line-height: 20px;
-  color: #344563; 
+  color: #344563;
 }
 
 .card-works-desktop {
@@ -466,7 +466,6 @@ textarea::placeholder {
 }
 
 .card-work-insider-desktop {
-  display: flex;
   background-color: #fff;
   display: grid;
   grid-template-columns: 50% 50%;
@@ -537,7 +536,7 @@ textarea::placeholder {
 }
 
 .tags-desktop-left {
-  grid-area:  6 / 1 / 7 / 2;
+  grid-area: 6 / 1 / 7 / 2;
   margin-left: 48px;
 }
 
@@ -561,7 +560,6 @@ textarea::placeholder {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
   text-align: left;
   height: 50px;
   width: 496px;
@@ -625,7 +623,7 @@ textarea::placeholder {
 @media screen and (min-width: 768px) {
   body {
     width: 1440px;
-    height: 916px;  
+    height: 916px;
   }
 
   .desktop-hide {
@@ -772,7 +770,6 @@ textarea::placeholder {
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: 0em;
     text-align: left;
     color: #344563;
   }
@@ -787,7 +784,6 @@ textarea::placeholder {
     background-image: url(Images/contact\ form\ background\ shapes.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: 3% 10%;
   }
 
   .header-contact-me {
@@ -801,10 +797,9 @@ textarea::placeholder {
     margin-left: 436px;
     margin-right: 435px;
     margin-bottom: 12px;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 20px;    
   }
-  
+
   #contact-me-form {
     display: flex;
     justify-content: center;
@@ -818,7 +813,7 @@ textarea::placeholder {
     margin-bottom: 27px;
     text-align: left;
   }
-  
+
   .contact-me-email {
     height: 48px;
     width: 447px;
@@ -832,7 +827,7 @@ textarea::placeholder {
     margin-bottom: 27px;
     border-radius: 2px;
   }
-   
+
   .contact-me-submit-button {
     margin-bottom: 127px;
     border-radius: 8px;
