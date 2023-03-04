@@ -11,8 +11,8 @@ body {
 }
 
 .presentation {
-  background-color: #fff;
   border-bottom-left-radius: 3.125rem;
+  background-color: #fff;
 }
 
 .nav-container {
