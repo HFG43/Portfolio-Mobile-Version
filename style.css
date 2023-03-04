@@ -801,6 +801,7 @@ textarea::placeholder {
   }
 
   .languages-list {
+    display: flex;
     flex-direction: row;
     margin-bottom: 6.113%;
   }
@@ -848,7 +849,7 @@ textarea::placeholder {
 
   #about-m-media-links-desktop-margin {
     margin-left: 24.1%;
-    margin-top: 2.83%;
+    margin-top: 2.5%;
   }
 
   #about-me-desktop-button-margin {
@@ -864,6 +865,7 @@ textarea::placeholder {
     display: flex;
     margin-right: 1.662%;
     align-items: flex-start;
+    width: 14.9%;
   }
 
   .margin-lang-frame {
