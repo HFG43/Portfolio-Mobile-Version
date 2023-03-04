@@ -355,9 +355,9 @@ body {
 .contact-me-background {
   position: relative;
   background-image: url(Images/Contact\ Me\ Backg.png);
+  background-size: 90%;
   background-repeat: no-repeat;
   background-size: contain;
-  background-position-x: 153px;
 }
 
 .header-contact-me {
