@@ -21,9 +21,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [Portfolio-Mobile-Version] <a name="about-project"></a>
+# 📖 [Portfolio-Responsive-Design] <a name="about-project"></a>
 
-**[Portfolio-Mobile-Version]** My Portfolio Mobile Version as software developer.In this portfolio I will show muy future projects and professional skills, shown in a responsive way, following "mobile first" design.
+**[Portfolio-Responsive-Design]** My Responsive design Portfolio as software developer. In this portfolio I will show muy future projects and professional skills, shown in a responsive way, following "mobile first" design. I'm showcasing in desktop and mobile version differente works I'm been doing through my career.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -34,7 +34,7 @@
   <ul>
     <li>HTML</li>
     <li>CSS</li>
-    <li>Bootstrap Gallery</li>
+    <li>Media Queries</li>
   </ul>
 </details>
 
@@ -96,7 +96,7 @@ Still needs review before deployment availability.
 
 ## 👥 Authors <a name="authors"></a>
 
-I will like to thank to Stenli Suryadinata https://github.com/stenlisuryadinata who helped me with the Form doing Pair Programing
+I will like to thank to Stenli Suryadinata https://github.com/stenlisuryadinata who helped me with the Form and Animation doing Pair Programing
 
 👤 **Author1**
 
@@ -110,6 +110,8 @@ I will like to thank to Stenli Suryadinata https://github.com/stenlisuryadinata 
 ## 🔭 Future Features <a name="future-features"></a>
 
 > Describe 1 - 3 features you will add to the project.
+
+- [ ] **[First project with responsive design. It also includes a test on animations!]**
 
 - [ ] **[New exciting projects to be included shortly]**
 
@@ -129,7 +131,7 @@ If you like this project please Star it!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank to my learning partners for some guidance!
+I would like to thank to my learning partners and team from the Morning Sesions for their guidance!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

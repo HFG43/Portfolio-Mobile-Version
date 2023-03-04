@@ -30,6 +30,38 @@ body {
   margin-top: 1.9375rem;
 }
 
+.logo-animation {
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-name: entrance;
+}
+
+@keyframes entrance {
+  from {
+    width: 10%;
+  }
+
+  25% {
+    width: 15%;
+  }
+
+  40% {
+    width: 20%;
+  }
+
+  50% {
+    widht: 25%
+  }
+
+  75% {
+    width: 30%;
+  }
+  
+  to {
+    width: 25%;
+  }
+}
+
 .primary-info {
   background-image: url(Images/header-shapes\ mobile.png);
   background-repeat: no-repeat;
