@@ -807,7 +807,7 @@ textarea::placeholder {
 
   .header2 {
     color: #091e42;
-    width: 75%;
+    width: 75,87%;
     font-size: 2.5rem;
     font-weight: 700;
     line-height: 3.25rem;
@@ -819,13 +819,12 @@ textarea::placeholder {
   }
 
   #about-m-pag-desktop {
-    height: 11.1353%;
-    width: 79.536%;
+    height: auto;
+    width: 76%;
     font-size: 1rem;
     font-weight: 400;
     color: #344563;
     margin-left: 24.1%;
-    margin-right: 0;
     margin-bottom: 1.31%;
     font-family: 'Poppins', sans-serif;
     text-align: left;
@@ -840,7 +839,7 @@ textarea::placeholder {
     font-size: 1rem;
     line-height: 1.5rem;
     color: #7f8cff;
-    margin-bottom: 1.7%;   
+    margin-bottom: 1.7%;
   }
 
   .see-project-button {
@@ -849,6 +848,7 @@ textarea::placeholder {
 
   #about-m-media-links-desktop-margin {
     margin-left: 24.1%;
+    margin-top: 2.83%;
   }
 
   #about-me-desktop-button-margin {
@@ -956,7 +956,6 @@ textarea::placeholder {
   }
  
   #margin-desktop-language {
-    margin-top: 0;
-    padding-top: 0;
+    margin-top: 18.12%;
   }
 }
