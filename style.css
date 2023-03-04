@@ -633,7 +633,7 @@ textarea::placeholder {
   .desktop-shown {
     display: contents;
   }
-  
+
   .my-logo {
     width: 5%;
     height: auto;
@@ -679,21 +679,13 @@ textarea::placeholder {
     margin-left: 260px;
   }
 
-  .contact-me-background {
-    position: relative;
-    background-image: url(Images/Header\ bottom\ desktop\ bg.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position-x: 9.5625rem;
-  }
-
   #about-myself {
     display: grid;
     grid-template-columns: 589px auto;
     column-gap: 49px;
     background-color: #fff;
   }
-  
+
   #desktop-grid-1 {
     grid-area: 1;
     margin-top: 142px;
