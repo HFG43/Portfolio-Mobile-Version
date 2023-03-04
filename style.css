@@ -545,7 +545,7 @@ textarea::placeholder {
   margin-left: 0;
 }
 
-.attribute-margin{
+.attribute-margin {
   margin-right: 12px;
 }
 
@@ -647,10 +647,6 @@ textarea::placeholder {
   list-style-type: none;
   font-family: 'Poppins', sans-serif;
   color: #6b778c;
-}
-
-.attribute-margin {
- padding-right: 0.831%;
 }
 
 .frame-first-attribute {
