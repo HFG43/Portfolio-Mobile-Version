@@ -48,7 +48,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](Pending Deployment)
+- https://hfg43.github.io/Portfolio-Mobile-Version/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -60,7 +60,10 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-Install VS Code
+Use the following link:
+https://hfg43.github.io/Portfolio-Mobile-Version/
+
+In case you need to review the code, it's suggested to run it on Visual Studio and follow the "Setup Steps"
 
 ### Setup
 
@@ -89,7 +92,7 @@ No test available.
 
 You can deploy this project using:
 
-Still needs review before deployment availability.
+https://hfg43.github.io/Portfolio-Mobile-Version/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
