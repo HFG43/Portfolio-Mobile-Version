@@ -7,5 +7,7 @@ function mobileMenu (){
 
   desktopMenu.classList.remove("mobile-hide"); //aparece el menu luego de hacer click en la burguer
 
+  desktopMenu.classList.add("list-menu-position"); //posicionamiento del menu
+
 }
 hamburguerMenu.addEventListener('click', mobileMenu);

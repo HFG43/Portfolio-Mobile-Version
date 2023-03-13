@@ -751,6 +751,13 @@ textarea::placeholder {
   display: contents;
 }
 
+.list-menu-position {
+  position: absolute;
+  flex-direction: column;
+  top: 106px;
+  left: 26px;
+}
+
 @media screen and (max-width: 768px) {
   .mobile-hide {
     display: none;
