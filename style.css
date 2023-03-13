@@ -741,6 +741,16 @@ textarea::placeholder {
   bottom: -1.63%;
 }
 
+/* MOBILE MENU */
+
+.mobile-menu-display-none {
+  display: none;
+}
+
+.mobile-menu-display-content {
+  display: contents;
+}
+
 @media screen and (max-width: 768px) {
   .mobile-hide {
     display: none;
