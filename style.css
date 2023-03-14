@@ -68,6 +68,10 @@ body {
   display: none;
 }
 
+.mobile-menu-line {
+  display: none;
+}
+
 @keyframes entrance {
   from {
     width: 5%;
@@ -807,7 +811,6 @@ textarea::placeholder {
 
 .mobile-menu-end-line-shown {
   display: contents;
-  display: flex;
 }
 
 .background-mobile-menu {

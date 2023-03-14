@@ -42,9 +42,10 @@ function closeMenuPortfolio () {
   desktopMenu.classList.add('nav-items-list')
   for(let i = 0; i < menuListItems.length; i++){ 
     menuListItems[i].classList.add('hide-menu-list-items'); 
+    menuListItems[i].classList.remove('list-menu-items-font'); 
   }
   closeDisplay.classList.add('hide-close-button');
-  closingLine.classList.add("hide-close-button"); //no anda
+  closingLine.classList.remove("mobile-menu-end-line-shown"); //no anda
 }
 portfolioMenu.addEventListener('click', closeMenuPortfolio);
 
@@ -53,6 +54,7 @@ function closeMenuAbout () {
   hamburguerMenu.classList.add("mobile-menu-display-content");
   for(let i = 0; i < menuListItems.length; i++){ 
     menuListItems[i].classList.add('hide-menu-list-items'); 
+    menuListItems[i].classList.remove('list-menu-items-font');
   }
   closeDisplay.classList.add('hide-close-button');
 }
@@ -62,7 +64,8 @@ aboutMenu.addEventListener('click', closeMenuAbout);
 function closeMenuContact () {
   hamburguerMenu.classList.add("mobile-menu-display-content");
   for(let i = 0; i < menuListItems.length; i++){ 
-    menuListItems[i].classList.add('hide-menu-list-items'); 
+    menuListItems[i].classList.add('hide-menu-list-items');
+    menuListItems[i].classList.remove('list-menu-items-font');
   }
   closeDisplay.classList.add('hide-close-button');
 }
@@ -71,7 +74,8 @@ contactMenu.addEventListener('click', closeMenuContact);
 function closeBtnClose () {
   hamburguerMenu.classList.add("mobile-menu-display-content");
   for(let i = 0; i < menuListItems.length; i++){ 
-    menuListItems[i].classList.add('hide-menu-list-items'); 
+    menuListItems[i].classList.add('hide-menu-list-items');
+    menuListItems[i].classList.remove('list-menu-items-font');
   }
   closeDisplay.classList.add('hide-close-button');
   closingLine.classList.add("hide-close-button"); //no anda
