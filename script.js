@@ -1,10 +1,10 @@
 let hamburguerMenu = document.querySelector('.burguer');
-
 let desktopMenu = document.querySelector('.menu-list');
-
 let menuListItems = document.querySelectorAll('.menu-list > li >a');
 
-let closeDisplay = document.querySelector('.fa-solid');
+let aboutMenu = document.querySelector('#card-container');
+
+let closeDisplay = document.querySelector('.close-icon');
 
 let backGContainer = document.querySelectorAll('.overlay'); //esta parte aun no logro que ande
 
@@ -17,13 +17,18 @@ hamburguerMenu.addEventListener('click',hideBurguer)
 
 
 function displayListMenu () {
-  desktopMenu.classList.add("mobile-menu-display-content");
-  
-  desktopMenu.classList.add("list-menu-position");
+  desktopMenu.classList.add('mobile-menu-display-content');
+
+  desktopMenu.classList.add('list-menu-position');
 
   for(let i = 0; i < menuListItems.length; i++){ 
-    menuListItems[i].classList.add("list-menu-items-font"); 
+    menuListItems[i].classList.add('list-menu-items-font'); 
   }
- 
+
+  closeDisplay.classList.add('mobile-menu-display-content');
+  closingLine.classList.add("mobile-menu-display-content");// este no anda
 }
-  hamburguerMenu.addEventListener('click',displayListMenu)
+hamburguerMenu.addEventListener('click',displayListMenu);
+
+
+

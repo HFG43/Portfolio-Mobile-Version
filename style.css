@@ -58,6 +58,10 @@ body {
   display: none;
 }
 
+.close-icon {
+  display: none;
+}
+
 @keyframes entrance {
   from {
     width: 5%;
@@ -765,6 +769,7 @@ textarea::placeholder {
 
 .list-menu-position {
   position: absolute;
+  display: flex;
   flex-direction: column;
   top: 106px;
   left: 26px;
@@ -778,10 +783,6 @@ textarea::placeholder {
   line-height: 44px;
   color: orangered;
   text-decoration: none;
-}
-
-.presentation {
-
 }
 
 @media screen and (min-width: 768px) {
