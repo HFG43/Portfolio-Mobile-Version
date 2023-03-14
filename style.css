@@ -758,6 +758,18 @@ textarea::placeholder {
   left: 26px;
 }
 
+.list-menu-items-font {
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+  color: orangered;
+}
+
+.presentation {
+
+}
+
 @media screen and (max-width: 768px) {
   .mobile-hide {
     display: none;
