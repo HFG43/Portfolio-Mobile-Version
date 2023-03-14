@@ -2,7 +2,9 @@ let hamburguerMenu = document.querySelector('.burguer');
 let desktopMenu = document.querySelector('.menu-list');
 let menuListItems = document.querySelectorAll('.menu-list > li >a');
 
-let aboutMenu = document.querySelector('#card-container');
+let portfolioMenu = document.querySelector('.portfolio');
+let aboutMenu = document.querySelector('.about');
+let contactMenu = document.querySelector('.contact');
 
 let closeDisplay = document.querySelector('.close-icon');
 
@@ -10,10 +12,12 @@ let backGContainer = document.querySelectorAll('.overlay'); //esta parte aun no 
 
 let closingLine = document.querySelector('.closing-line');
 
+
 function hideBurguer () {
   hamburguerMenu.classList.add("mobile-menu-display-none");
 }
 hamburguerMenu.addEventListener('click',hideBurguer)
+
 
 
 function displayListMenu () {
@@ -30,5 +34,35 @@ function displayListMenu () {
 }
 hamburguerMenu.addEventListener('click',displayListMenu);
 
+
+
+function closeMenuPortfolio () {
+  hamburguerMenu.classList.add("mobile-menu-display-content");
+  for(let i = 0; i < menuListItems.length; i++){ 
+    menuListItems[i].classList.add('hide-menu-list-items'); 
+  }
+  closeDisplay.classList.add('hide-close-button');
+}
+portfolioMenu.addEventListener('click', closeMenuPortfolio);
+
+
+function closeMenuAbout () {
+  hamburguerMenu.classList.add("mobile-menu-display-content");
+  for(let i = 0; i < menuListItems.length; i++){ 
+    menuListItems[i].classList.add('hide-menu-list-items'); 
+  }
+  closeDisplay.classList.add('hide-close-button');
+}
+aboutMenu.addEventListener('click', closeMenuAbout);
+
+
+function closeMenuContact () {
+  hamburguerMenu.classList.add("mobile-menu-display-content");
+  for(let i = 0; i < menuListItems.length; i++){ 
+    menuListItems[i].classList.add('hide-menu-list-items'); 
+  }
+  closeDisplay.classList.add('hide-close-button');
+}
+contactMenu.addEventListener('click', closeMenuContact);
 
 
