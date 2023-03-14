@@ -38,6 +38,8 @@ hamburguerMenu.addEventListener('click',displayListMenu);
 
 function closeMenuPortfolio () {
   hamburguerMenu.classList.add("mobile-menu-display-content");
+  desktopMenu.classList.remove('list-menu-position')
+  desktopMenu.classList.add('nav-items-list')
   for(let i = 0; i < menuListItems.length; i++){ 
     menuListItems[i].classList.add('hide-menu-list-items'); 
   }
