@@ -5,7 +5,7 @@ let portfolioMenu = document.querySelector('.portfolio');
 let aboutMenu = document.querySelector('.about');
 let contactMenu = document.querySelector('.contact');
 let closeDisplay = document.querySelector('.close-icon');
-let backGContainer = document.querySelectorAll('.overlay'); //esta parte aun no logro que ande
+let backGContainer = document.querySelectorAll('.blur-container'); //esta parte aun no logro que ande
 let closingLine = document.querySelector('.mobile-menu-end-line');
 
 

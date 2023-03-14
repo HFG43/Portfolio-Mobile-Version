@@ -815,18 +815,13 @@ textarea::placeholder {
 
 /* .background-mobile-menu //{
   z-index: 1;
-  display: none;
-  align-content: center;
-  flex-direction: row;
-  justify-content: space-around;
   position: absolute;
   top: 0;
   list-style: none;
-  background: #D3D4DB;
-  -webkit-backdrop-filter: blur(8px);
-  backdrop-filter: blur(12px);
+  background: #6070ff;
+  backdrop-filter: blur(5px);
   width: 100%;
-  height: 718px;
+  height: 80%;
   mix-blend-mode: multiply;
 } */
 
