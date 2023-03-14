@@ -10,7 +10,7 @@ let closeDisplay = document.querySelector('.close-icon');
 
 let backGContainer = document.querySelectorAll('.overlay'); //esta parte aun no logro que ande
 
-let closingLine = document.querySelector('.closing-line');
+let closingLine = document.querySelector('.mobile-menu-end-line');
 
 
 function hideBurguer () {
@@ -30,7 +30,7 @@ function displayListMenu () {
   }
 
   closeDisplay.classList.add('mobile-menu-display-content');
-  closingLine.classList.add("mobile-menu-display-content");// este no anda
+  closingLine.classList.add("mobile-menu-end-line-shown");// este no anda
 }
 hamburguerMenu.addEventListener('click',displayListMenu);
 
@@ -42,6 +42,7 @@ function closeMenuPortfolio () {
     menuListItems[i].classList.add('hide-menu-list-items'); 
   }
   closeDisplay.classList.add('hide-close-button');
+  closingLine.classList.add("hide-close-button"); //no anda
 }
 portfolioMenu.addEventListener('click', closeMenuPortfolio);
 
@@ -64,5 +65,16 @@ function closeMenuContact () {
   closeDisplay.classList.add('hide-close-button');
 }
 contactMenu.addEventListener('click', closeMenuContact);
+
+function closeBtnClose () {
+  hamburguerMenu.classList.add("mobile-menu-display-content");
+  for(let i = 0; i < menuListItems.length; i++){ 
+    menuListItems[i].classList.add('hide-menu-list-items'); 
+  }
+  closeDisplay.classList.add('hide-close-button');
+  closingLine.classList.add("hide-close-button"); //no anda
+}
+closeDisplay.addEventListener('click', closeBtnClose);
+
 
 

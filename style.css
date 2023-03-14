@@ -793,6 +793,20 @@ textarea::placeholder {
   display: none;
 }
 
+.mobile-menu-end-line {
+  position: absolute;
+  left: 32%;
+  margin-bottom: 1.11%;
+}
+
+.mobile-menu-end-line-shown {
+  display: contents;
+  display: flex;
+}
+
+.background-mobile-menu {
+  
+}
 
 @media screen and (min-width: 768px) {
   body {
