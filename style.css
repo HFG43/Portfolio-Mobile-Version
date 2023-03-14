@@ -503,6 +503,11 @@ textarea::placeholder {
   margin-left: 8.53%;
 }
 
+.nav-items-list li a {
+  text-decoration: none;
+  color: #344563;
+}
+
 .cards-desktop {
   margin-left: 9.8337%;
   margin-right: 9.8337%;
@@ -743,6 +748,11 @@ textarea::placeholder {
 
 /* MOBILE MENU */
 
+.close-fa-icon {
+  display: none;
+  color: orangered;
+}
+
 .mobile-menu-display-none {
   display: none;
 }
@@ -765,6 +775,8 @@ textarea::placeholder {
   line-height: 44px;
   color: orangered;
 }
+
+
 
 .presentation {
 
