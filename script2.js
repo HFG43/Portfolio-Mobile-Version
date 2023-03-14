@@ -1,5 +1,5 @@
 
-function mobileMenu (){
+/*function mobileMenu (){
  
     hamburguerMenu.classList.add("mobile-menu-display-none"); //desaparece la hamburguesa//
   
@@ -37,4 +37,4 @@ function mobileMenu (){
   
     click.stopPropagation();
   }
-  closeDisplay.addEventListener('click', closeMenu); 
+  closeDisplay.addEventListener('click', closeMenu); */
