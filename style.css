@@ -838,8 +838,12 @@ textarea::placeholder {
   height: 30px;
   width: 30px;
   position: absolute;
-  left: 380px;
-  top: -90px;
+  left: 86%;
+  top: 8.6%;
+}
+
+.close-cross {
+  z-index: 2;
 }
 
 @media screen and (min-width: 768px) {
