@@ -6,14 +6,7 @@ let aboutMenu = document.querySelector('.about');
 let contactMenu = document.querySelector('.contact');
 let closeDisplay = document.querySelector('.close-icon');
 
-let backGContainer = document.getElementById('blur-container').innerHTML
-document.querySelectorAll('#blur-container'); //esta parte aun no logro que ande
 
-
-function blur () {
-  backGContainer.classList.add('blur');
-}
-hamburguerMenu.addEventListener('click', blur);
 
 function displayListMenu () {
  

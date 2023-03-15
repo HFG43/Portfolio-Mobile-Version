@@ -825,17 +825,26 @@ textarea::placeholder {
   left: 0;
   list-style: none;
   background: #6070ff;
-  -webkit-backdrop-filter: blur(6px);
-  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
   width: 100%;
   height: 100%;
   mix-blend-mode: multiply;
 }
 
 .close-icon {
-  left: 150px;
-  z-index: 2;
   color: #fff;
+  font-size: 0px;
+}
+
+.cross {
+  position: absolute;
+  left: 280px;
+  top: -50px;
+  z-index: 30;
+  color: #fff;
+  height: 30px;
+  width: 30px;
 }
 
 @media screen and (min-width: 768px) {
