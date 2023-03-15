@@ -856,7 +856,7 @@ textarea::placeholder {
   list-style: none;
 }
 
-.portfolio .about .contact {
+.portfolio, .about, .contact {
   display: flex;
   z-index: 30;
   font-family: 'Poppins', sans-serif;
