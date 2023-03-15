@@ -825,17 +825,13 @@ textarea::placeholder {
 }
 
 .blur {
-  z-index: 1;
   position: fixed;
   top: 0;
   left: 0;
   list-style: none;
-  background: #6070ff;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
+  background: #6070ffda;
   width: 100vw;
   height: 100vh;
-  mix-blend-mode: multiply;
 }
 
 .cross {
@@ -856,7 +852,31 @@ textarea::placeholder {
   list-style: none;
 }
 
-.portfolio, .about, .contact {
+.portfolio {
+  display: flex;
+  z-index: 30;
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 40px;
+}
+
+.contact {
+  display: flex;
+  z-index: 30;
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 40px;
+}
+
+.about {
   display: flex;
   z-index: 30;
   font-family: 'Poppins', sans-serif;
