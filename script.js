@@ -5,23 +5,33 @@ let portfolioMenu = document.querySelector('.portfolio');
 let aboutMenu = document.querySelector('.about');
 let contactMenu = document.querySelector('.contact');
 let closeDisplay = document.querySelector('.close-icon');
-let backGContainer = document.querySelectorAll('.blur-container'); //esta parte aun no logro que ande
-let closingLine = document.querySelector('.mobile-menu-end-line');
 
+let backGContainer = document.getElementById('blur-container').innerHTML
+document.querySelectorAll('#blur-container'); //esta parte aun no logro que ande
+
+
+function blur () {
+  backGContainer.classList.add('blur');
+}
+hamburguerMenu.addEventListener('click', blur);
 
 function displayListMenu () {
+ 
   hamburguerMenu.classList.add("mobile-menu-display-none");
+  
   desktopMenu.classList.add('mobile-menu-display-content');
+ 
   desktopMenu.classList.add('list-menu-position');
 
   for(let i = 0; i < menuListItems.length; i++){ 
     menuListItems[i].classList.add('list-menu-items-font'); 
   }
-
+  
   closeDisplay.classList.add('mobile-menu-display-content');
-  closingLine.classList.add("mobile-menu-end-line-shown");// este no anda
 }
 hamburguerMenu.addEventListener('click',displayListMenu);
+
+
 
 
 function close () {
@@ -35,7 +45,6 @@ function close () {
   }
 
   closeDisplay.classList.add('hide-close-button');
-  closingLine.classList.remove("mobile-menu-end-line-shown");
 }
 portfolioMenu.addEventListener('click', close);
 aboutMenu.addEventListener('click', close);
