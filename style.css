@@ -790,7 +790,8 @@ textarea::placeholder {
 }
 
 .list-menu-items-font {
-  position: relative;
+  display: flex;
+  display: column;
   z-index: 30;
   font-family: 'Poppins', sans-serif;
   font-size: 32px;
@@ -798,6 +799,7 @@ textarea::placeholder {
   line-height: 44px;
   color: #fff;
   text-decoration: none;
+  margin-bottom: 40px;
 }
 
 .hide-menu-list-items {
@@ -836,8 +838,8 @@ textarea::placeholder {
   height: 30px;
   width: 30px;
   position: absolute;
-  left: 300px;
-  top: -50px;
+  left: 380px;
+  top: -90px;
 }
 
 @media screen and (min-width: 768px) {
