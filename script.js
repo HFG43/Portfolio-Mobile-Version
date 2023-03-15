@@ -1,4 +1,11 @@
-// const hamburguerMenu = document.querySelector('.burguer');
+  // const hamburguerMenu = document.querySelector('.burguer');
+  // const blurMenu = document.querySelector('.blur-activation');
+
+  // function displayBlurMenu() {
+  //   blurMenu.classList.remove('display-none');
+  // }
+  // hamburguerMenu.addEventListener('click', displayBlurMenu);
+
 // const desktopMenu = document.querySelector('.menu-list');
 // const menuListItems = document.querySelectorAll('.menu-list > li >a');
 // const portfolioMenu = document.querySelector('.portfolio');
