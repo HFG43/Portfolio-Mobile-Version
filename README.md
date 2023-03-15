@@ -35,6 +35,7 @@
     <li>HTML</li>
     <li>CSS</li>
     <li>Media Queries</li>
+    <li>JavaScript</li>
   </ul>
 </details>
 
@@ -43,12 +44,13 @@
 
 - **[My mobile responsive portfolio design]**
 - **[Responsiveness supported with bootstrap]**
+- **[Responsive Mobile Menu]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- https://hfg43.github.io/Portfolio-Mobile-Version/
+- https://hfg43.github.io/Portfolio-Mobile-Version/#card-container
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -61,7 +63,7 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 Use the following link:
-https://hfg43.github.io/Portfolio-Mobile-Version/
+https://hfg43.github.io/Portfolio-Mobile-Version/#card-container
 
 In case you need to review the code, it's suggested to run it on Visual Studio and follow the "Setup Steps"
 
@@ -92,14 +94,13 @@ No test available.
 
 You can deploy this project using:
 
-https://hfg43.github.io/Portfolio-Mobile-Version/
+https://hfg43.github.io/Portfolio-Mobile-Version/#card-container
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 👥 Authors <a name="authors"></a>
 
-I will like to thank to Stenli Suryadinata https://github.com/stenlisuryadinata who helped me with the Form and Animation doing Pair Programing
 
 👤 **Author1**
 
@@ -107,6 +108,10 @@ I will like to thank to Stenli Suryadinata https://github.com/stenlisuryadinata 
 - Twitter: [@twitterhandle](https://twitter.com/HFG_43)
 - LinkedIn: [LinkedIn](linkedin.com/in/hernán-güemes-a440591b)
 
+👤 **Author2**
+
+- GitHub: [@githubhandle](https://github.com/MarkYegon7)
+- Twitter: [@twitterhandle](https://twitter.com/Marksambai)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,7 +119,7 @@ I will like to thank to Stenli Suryadinata https://github.com/stenlisuryadinata 
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[First project with responsive design. It also includes a test on animations!]**
+- [ ] **[First project with responsive design. It also includes a test on animations & and a responsive Menu!]**
 
 - [ ] **[New exciting projects to be included shortly]**
 
@@ -134,7 +139,7 @@ If you like this project please Star it!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank to my learning partners and team from the Morning Sesions for their guidance!
+I would like to thank Mark Yegon (@MarkYegon7) with whom we overcome many obstacles on this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

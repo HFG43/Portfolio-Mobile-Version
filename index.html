@@ -11,18 +11,27 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/db2c8620f4.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <header class="presentation">
+  <div></di>
+  <header id="presentation">
     <nav class="nav-container">
       <img class="my-logo logo-animation" src="Images/Logo HG.png">
-      <i style="color: #acb7c3" class="fa fa-bars desktop-hide"></i>
-      <ul class="mobile-hide nav-items-list">
-        <li>Portfolio</li>
-        <li>About</li>
-        <li>Contact</li>
+      <div class="burguer">
+        <ul id="hamburguer">
+        <span class="ham-bar"></span>
+        <span class="ham-bar"></span>
+        <span class="ham-bar"></span>
+        </ul>
+      </div>
+      <ul class="nav-items-list menu-list desktop-shown">
+        <li><a href="#card-container">Portfolio</a></li>
+        <li><a href="#about-myself">About</a></li>
+        <li><a href="#contact-me">Contact</a></li>
       </ul>
     </nav>
+    <div>
       <div class="primary-info">
         <h2 class="header1 welcome-animation">I'm Hernán
         <br>
@@ -57,6 +66,8 @@
           </a>
         </li>
       </ul>
+      <span><img class="mobile-menu-end-line mobile-menu-line" src="Images/Shape.png"></span> 
+      </div>
     </div>
   </header>
     <main id="card-container">
@@ -333,5 +344,17 @@
     </form>  
     </div>
   </section>
+  <section>
+    <div class="blur-activation blur display-none">
+      <li><img src="Images/Closing-cross.png" class="cross close-cross"></li>
+      <ul class="menu-items-mobile">
+        <li><a href="#card-container" class="portfolio">Portfolio</a></li>
+        <li><a href="#about-myself" class="about">About</a></li>
+        <li><a href="#contact-me" class="contact">Contact</a></li>
+      </ul>
+      <span class="close-bar"><img src="Images/Shape.png"></span> 
+      </div>
+    </section>
+  <script src="script.js"></script>
 </body>
 </html>
