@@ -791,7 +791,6 @@ textarea::placeholder {
 
 .list-menu-items-font {
   display: flex;
-  display: column;
   z-index: 30;
   font-family: 'Poppins', sans-serif;
   font-size: 32px;
@@ -857,9 +856,8 @@ textarea::placeholder {
   list-style: none;
 }
 
-.portfolio,.about,.contact {
+.portfolio .about .contact {
   display: flex;
-  display: column;
   z-index: 30;
   font-family: 'Poppins', sans-serif;
   font-size: 32px;

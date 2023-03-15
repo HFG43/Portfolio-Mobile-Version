@@ -111,6 +111,7 @@ https://hfg43.github.io/Portfolio-Mobile-Version/#card-container
 👤 **Author2**
 
 - GitHub: [@githubhandle](https://github.com/MarkYegon7)
+- Twitter: [@twitterhandle](https://twitter.com/Marksambai)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
