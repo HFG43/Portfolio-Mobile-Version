@@ -797,7 +797,7 @@ textarea::placeholder {
   font-size: 32px;
   font-weight: 600;
   line-height: 44px;
-  color: #fff;
+  color: orange;
   text-decoration: none;
   margin-bottom: 40px;
 }
@@ -837,13 +837,40 @@ textarea::placeholder {
 .cross {
   height: 30px;
   width: 30px;
-  position: absolute;
+  position: relative;
   left: 86%;
   top: 8.6%;
 }
 
 .close-cross {
-  z-index: 2;
+  border: white 2px;
+}
+
+.menu-items-mobile {
+  z-index: 30;
+  /* position: absolute; */
+  display: flex;
+  flex-direction: column;
+  top: 106px;
+  left: 26px;
+  list-style: none;
+}
+
+.portfolio,.about,.contact {
+  display: flex;
+  display: column;
+  z-index: 30;
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+  color: orange;
+  text-decoration: none;
+  margin-bottom: 40px;
+}
+
+.test {
+  background-color: grey;
 }
 
 @media screen and (min-width: 768px) {
