@@ -833,18 +833,15 @@ textarea::placeholder {
 }
 
 .close-icon {
-  color: #fff;
-  font-size: 0px;
+ font-size: 0px;
 }
 
 .cross {
-  position: absolute;
-  left: 280px;
-  top: -50px;
-  z-index: 30;
-  color: #fff;
   height: 30px;
   width: 30px;
+  position: absolute;
+  left: 300px;
+  top: -50px;
 }
 
 @media screen and (min-width: 768px) {
