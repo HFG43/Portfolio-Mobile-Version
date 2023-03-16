@@ -1,4 +1,10 @@
-function PopUpsMobile (title, frame1, frame2, frame3, frame4, frame5, snapshot, paragraph, languages1, languages2, languages3, languages4, button1, button2) {
+const separator = document.querySelector('.separator');
+const snap1 = document.querySelector('.snap1');
+const snap2 = document.querySelector('.snap2');
+const snap3 = document.querySelector('.snap3');
+const snap4 = document.querySelector('.snap4');
+
+function PopUpsMobile (title, frame1, frame2, frame3, frame4, frame5, snapshot, paragraph, languages1, languages2, languages3, languages4) {
     this.title = title;
     this.frame1 = frame1;
     this.frame2 = frame2;
@@ -11,10 +17,15 @@ function PopUpsMobile (title, frame1, frame2, frame3, frame4, frame5, snapshot, 
     this.languages2 = languages2;
     this.languages3 = languages3;
     this.languages4 = languages4;
-    this.button1 = button1;
-    this.button2 = button2;
 };
-const project1 = new PopUpsMobile("Tonic","CANOPY","IMAGEN","Back End Dev","IMAGEN","2015","IMAGEN","A daily selection of privately personalized reads; no accounts or sign-ups required.","html","CSS","javaScript",1,1);
+
+const project1 = new PopUpsMobile("Tonic","CANOPY",separator,"Back End Dev",separator,"2015","IMAGEN","A daily selection of privately personalized reads; no accounts or sign-ups required.","html","CSS","javaScript");
+
+const project2 = new PopUpsMobile("Multi-Post<br>Stories","CANOPY",separator,"Back End Dev",separator,"2015","IMAGEN","A daily selection of privately personalized reads; no accounts or sign-ups required.","html","CSS","javaScript");
+
+const project3 = new PopUpsMobile("Tonic","CANOPY",separator,"Back End Dev",separator,"2015","IMAGEN","A daily selection of privately personalized reads; no accounts or sign-ups required.","html","CSS","javaScript");
+
+const project4 = new PopUpsMobile("Tonic","CANOPY",separator,"Back End Dev",separator,"2015","IMAGEN","A daily selection of privately personalized reads; no accounts or sign-ups required.","html","CSS","javaScript");
 
 const body = document.querySelector('body');
 const popUpMobile = document.createElement('section');
@@ -45,6 +56,4 @@ section.innerHTML =`
   </div>
   `;
 
-
-
-// const project1 = new PopUpsMobile("Tonic","CANOPY",img.src="Images/Counter.png","Back End Dev",img.src="Images/Counter.png","2015",img.src="Images/Snapshoot Portfolio.png","A daily selection of privately personalized reads; no accounts or sign-ups required.","html","CSS","javaScript",1,1);
+  
