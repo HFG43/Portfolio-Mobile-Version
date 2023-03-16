@@ -898,6 +898,26 @@ textarea::placeholder {
   display: none;
 }
 
+
+/* MOBILE POP UP */
+.pop-up-container {
+  display: flex;
+  justify-self: center;
+  display: grid;
+  grid-template-columns: auto;
+  width: 87.2%;
+  margin-left: 6.4%;
+  margin-right: 6.4%;
+}
+
+.menu-items-mobile {
+  display: flex;
+  flex-direction: row;
+  margin-left: 8px;
+  margin-right: 8px;
+  align-content: center;
+}
+
 @media screen and (min-width: 768px) {
   body {
     width: 100%;
