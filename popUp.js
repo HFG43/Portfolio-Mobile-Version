@@ -19,35 +19,67 @@ function PopUpsMobile (title, frame1, frame2, frame3, frame4, frame5, snapshot, 
     this.languages4 = languages4;
 };
 
-const project1 = new PopUpsMobile("Tonic","CANOPY",separator,"Back End Dev",separator,"2015","IMAGEN","A daily selection of privately personalized reads; no accounts or sign-ups required.","html","CSS","javaScript");
+const project1 = new PopUpsMobile("Tonic","CANOPY",separator,"Back End Dev",separator,"2015",snap1,"A daily selection of privately personalized reads; no accounts or sign-ups required.","html","CSS","javaScript");
 
-const project2 = new PopUpsMobile("Multi-Post<br>Stories","CANOPY",separator,"Back End Dev",separator,"2015","IMAGEN","A daily selection of privately personalized reads; no accounts or sign-ups required.","html","CSS","javaScript");
+const project2 = new PopUpsMobile("Multi-Post<br>Stories","CANOPY",separator,"Back End Dev",separator,"2015",snap2,"A daily selection of privately personalized reads; no accounts or sign-ups required.","html","CSS","javaScript");
 
-const project3 = new PopUpsMobile("Tonic","CANOPY",separator,"Back End Dev",separator,"2015","IMAGEN","A daily selection of privately personalized reads; no accounts or sign-ups required.","html","CSS","javaScript");
+const project3 = new PopUpsMobile("Tonic","CANOPY",separator,"Back End Dev",separator,"2015",snap3,"A daily selection of privately personalized reads; no accounts or sign-ups required.","html","CSS","javaScript");
 
-const project4 = new PopUpsMobile("Tonic","CANOPY",separator,"Back End Dev",separator,"2015","IMAGEN","A daily selection of privately personalized reads; no accounts or sign-ups required.","html","CSS","javaScript");
+const project4 = new PopUpsMobile("Multi-Post<br>Stories","CANOPY",separator,"Back End Dev",separator,"2015",snap4,"A daily selection of privately personalized reads; no accounts or sign-ups required.","html","CSS","javaScript");
 
-const body = document.querySelector('body');
-const popUpMobile = document.createElement('section');
-body.append(popUpMobile);
-section.innerHTML =`    
-<div class="card-works">
+const openProject1 = document.querySelector('.see-more-project-1');
+const openProject2 = document.querySelector('.see-more-project-2');
+const openProject3 = document.querySelector('.see-more-project-3');
+const openProject4 = document.querySelector('.see-more-project-4');
+
+let project = undefined;
+function clickProj1() {
+    projects = project1;
+    console.log(project1);
+  }
+  openProject1.addEventListener('click', clickProj1);
+
+function clickProj2() {
+    project = project2;
+    console.log(project2);
+}
+  openProject2.addEventListener('click', clickProj2);
+
+function clickProj3() {
+    project = project3;
+    console.log(project3);
+}
+  openProject3.addEventListener('click', clickProj3);
+
+function clickProj4() {
+    project = project4;
+    console.log(project4);
+}
+openProject4.addEventListener('click', clickProj4);
+
+  project.addEventListener('click', function (popUpRun) {
+  const body = document.querySelector('body');
+  const popUpMobile = document.createElement('section');
+  body.appendChild(popUpMobile);
+  section.innerHTML =`    
+  <div class="card-works">
     <div class="card-work-insider">
-      <h2>"${PopUpsMobile.title}"</h2>
+      <h2>"${project.title}"</h2>
+      <li><img src="Images/Closing-cross.png" class="close"></li>
       <ul class="frame-2">
-        <li>"${PopUpsMobile.frame1}"</li>
-        <li><img src="${popUpMobile.frame2.src}"></li>
-        <li>"${PopUpsMobile.frame3}"</li>
-        <li><img src="${popUpMobile.frame4.src}"></li>
-        <li>"${PopUpsMobile.frame5}"</li>
+        <li>"${project.frame1}"</li>
+        <li><img src="${project.frame2.src}"></li>
+        <li>"${project.frame3}"</li>
+        <li><img src="${project.frame4.src}"></li>
+        <li>"${project.frame5}"</li>
       </ul>
-      <img src="${popUpMobile.snapshot.src}"></li>>
-      <p class="primary-project-text">"${PopUpsMobile.paragraph}"</p>
+      <img src="${project.snapshot.src}"></li>>
+      <p class="primary-project-text">"${project.paragraph}"</p>
       <ul class="tags-container">
-        <li>"${PopUpsMobile.languages1}"</li>
-        <li>"${PopUpsMobile.languages2}"</li>
-        <li>"${PopUpsMobile.languages3}"</li>
-        <li>"${PopUpsMobile.languages4}"</li>
+        <li>"${project.languages1}"</li>
+        <li>"${project.languages2}"</li>
+        <li>"${project.languages3}"</li>
+        <li>"${project.languages4}"</li>
       </ul>
       <div class="button-mobile-pop-up-container">
         <button href="#">See live<span><img src="Images/See-live-icon.svg"></span></button>
@@ -55,5 +87,4 @@ section.innerHTML =`
     </div>
   </div>
   `;
-
-  
+})
