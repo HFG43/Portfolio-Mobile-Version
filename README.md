@@ -34,6 +34,8 @@
   <ul>
     <li>HTML</li>
     <li>CSS</li>
+    <li>Flexbox</li>
+    <li>CSS Grid</li>
     <li>Media Queries</li>
     <li>JavaScript</li>
   </ul>
